@@ -1,2 +1,2 @@
 # python-newsfeed
-A social media app with a Django backend
+A social media app with a Flask backend
