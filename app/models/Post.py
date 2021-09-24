@@ -18,3 +18,4 @@ class Post(Base):
   vote_count = column_property(
     select([func.count(Vote.id)]).where(Vote.post_id == id)
     )
+  votes = relationship('Vote', cascade='all,delete')
